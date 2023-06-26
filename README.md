@@ -6,9 +6,9 @@
 
 To execute the entire test suite in local development, use:
 
-`npm run test`.
+`npm run test`
 
-To run test in docker container, create docker image:
+Docker file has been set up to create docker image, to run test in docker container, create docker image:
 
 `docker build -t <your-image-name> .`
 
@@ -18,7 +18,7 @@ Run the command within the container:
 
 ### Logs
 
-Complete set of execution `logs` will be generated during the run time and can be found in the parent folder location /logs.
+Complete set of execution `logs` will be generated during the run time.
 
 ### Reporters
 
