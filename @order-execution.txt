@@ -1,0 +1,5 @@
+./features/authentication.feature
+./features/createBooking.feature
+./features/getBookingId.feature
+./features/updateBooking.feature
+./features/deleteBooking.feature

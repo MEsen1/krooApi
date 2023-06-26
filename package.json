@@ -1,0 +1,17 @@
+{"scripts":{
+  "test":"rm -rf allure-results && rm -rf allure-report && npx cucumber-js @order-execution.txt --require-module='@babel/register' --config ./cucumber.js",
+  "createReport":"allure generate allure-results --clean && allure open"},
+  "devDependencies":{
+    "@babel/core":"^7.22.5",
+    "@babel/preset-env":"^7.22.5",
+    "@babel/register":"^7.22.5",
+    "@cucumber/cucumber":"^9.2.0",
+    "@faker-js/faker":"^8.0.2",
+    "allure-commandline":"^2.22.4",
+    "allure-cucumberjs":"^2.4.0",
+    "allure-js-commons":"^2.4.0",
+    "chai":"^4.3.7",
+    "chai-http":"^4.4.0",
+    "cucumber-html-reporter":"^7.1.0",
+    "moment":"^2.29.4"}
+  }
